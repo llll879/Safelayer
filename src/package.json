@@ -1,0 +1,15 @@
+{
+  "name": "kmbp-bot-base",
+  "version": "2.0.0",
+  "description": "КМБП Base — Telegram база ботов с динамическими карточками SafeLayer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
