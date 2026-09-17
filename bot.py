@@ -20,7 +20,7 @@ if not TOKEN:
     raise RuntimeError("BOT_TOKEN is not configured")
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(TOKEN)
+bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher()
 
 def now():
